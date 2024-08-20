@@ -1,0 +1,118 @@
+main {
+    background-color: #ecf0f1 !important;
+}
+
+.my-navbar {
+    background-color: #3498db;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: white;
+}
+.navbar-nav a {
+    text-decoration: none; /* Remueve el subrayado predeterminado */
+    color: #000; /* Color del texto del enlace */
+    position: relative; /* Necesario para la línea personalizada */
+    padding: 5px 0; /* Espacio entre el texto y la línea */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+.navbar .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px; /* Grosor de la línea */
+    background-color: #ffffff; /* Color de la línea */
+    transition: width 0.3s ease; /* Transición suave para la línea */
+}
+
+.navbar .nav-link:hover::after {
+    width: 100%; /* Expande la línea cuando se pasa el cursor */
+}
+
+
+
+.active-link {
+    border-bottom: 2px solid white;
+}
+
+.redes-sociales-nav {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    color: white !important;
+}
+
+.redes-item {
+    margin: 0 138.5px;
+    padding: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-md-6 {
+    display: flex;
+    align-items: stretch;
+}
+
+.card {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex: 1;
+}
+
+.hero {
+    height: calc(100vh - 80px) !important;
+}
+
+.line {
+    height: 2px;
+    width: 80px;
+    background-color: rgb(51, 154, 188);
+    margin-bottom: 30px;
+}
+
+.secundary-title {
+    color: #348ac4;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.description {
+    color: rgb(96, 96, 96);
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+.carousel-control-prev {
+    left: -100px !important;
+}
+
+.carousel-control-next {
+    right: -100px !important;
+}
