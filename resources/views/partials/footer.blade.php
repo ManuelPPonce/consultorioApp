@@ -11,10 +11,10 @@
           <h5 class="text-uppercase">Contacto</h5>
           <ul class="list-unstyled mb-0">
             <li>
-              <a href="#!" class="text-dark">info@saluddentalac.com</a>
+              <a href="#!" class="text-dark">iapc.8507@gmail.com</a>
             </li>
             <li>
-              <a href="#!" class="text-dark">+1 234 567 890</a>
+              <a href="#!" class="text-dark">9811168998</a>
             </li>
           </ul>
         </div>
